@@ -1,0 +1,5 @@
+D:/00 Production/09 Github/PiMove/pybind/CMakeFiles/CPictureModifier.dir
+D:/00 Production/09 Github/PiMove/pybind/CMakeFiles/edit_cache.dir
+D:/00 Production/09 Github/PiMove/pybind/CMakeFiles/rebuild_cache.dir
+D:/00 Production/09 Github/PiMove/pybind/pybind11/CMakeFiles/edit_cache.dir
+D:/00 Production/09 Github/PiMove/pybind/pybind11/CMakeFiles/rebuild_cache.dir

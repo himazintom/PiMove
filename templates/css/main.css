@@ -1,0 +1,61 @@
+
+body{
+    background-color: #fda7a7;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+
+#img_head{
+    text-align: center;
+}
+
+.text{
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.sample_img{
+
+    text-align: center;
+    width: 33.33%;
+    display: flex;
+}
+
+.sample_img img{
+    margin-right: 10px; /* 右側に余白を追加 */
+    width: 98%;
+    height: auto;
+   
+}
+
+.upload_space{
+    flex-grow: 1;
+    padding: 130px;
+    padding-bottom: 300px;
+    background-color: rgba(212, 210, 210, 0.776);
+    text-align: center;
+}
+
+.upload_space h1{
+    font-size: 1rem;
+}
+
+.para{
+    flex-grow: 1;
+    margin-left: 10px;
+    padding-left: 10px;;
+    padding-right: 10px;;
+    background-color: rgba(212, 210, 210, 0.776);
+}
+
+.para h1{
+    font-size: 1.5rem;
+}
+
+.flex{
+
+    margin-top: 10px;
+    display: flex;
+}

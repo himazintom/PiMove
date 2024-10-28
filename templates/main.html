@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask HTMLファイル</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
+
+  <body>
+    <header>
+      <div id="img_head">
+      <img src="{{ url_for('static', filename='Pictures/PimoveTitle.png') }}">
+      </div>
+    </header>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+    <div class="main_body">
+
+        <h1 class="text">このWebサイトは胸を揺らすためだけに作られました。ぜひ皆さんもお好みの子の胸を揺らしてください★</h1>
+
+        <div class="sample_img">
+          <img src="{{ url_for('static', filename='Pictures/tempListPicture.jpg') }}">
+          <img src="{{ url_for('static', filename='Pictures/tempListPicture.jpg') }}">
+          <img src="{{ url_for('static', filename='Pictures/tempListPicture.jpg') }}">
+        </div>
+
+      
+
+        <div class="flex">
+
+        <div class="upload_space">
+          <h1>画像アップロード</h1>
+          <input type="file" id="fileInput" accept="image/*" onchange="photoPreview(event)" enctype="multipart/form-data">
+          <div id="previewArea"></div>
+        </div>
+
+        <div class="para">
+          <h1>param</h1>
+        <input type="range" id="sliderFrameVol" min="8" max="32" value="8" onchange="updateSliderValue('sliderFrameVol', 'sliderValueFrameVol')">
+        <span id="sliderValueFrameVol">8</span>
+
+        <input type="range" id="sliderCognitive" min="0.3" max="0.7" value="0.5" step="0.1" onchange="updateSliderValue('sliderCognitive', 'sliderValueCognitive')">
+        <span id="sliderValueCognitive">0.5</span>
+
+        <div class="stick-container">
+          <div class="stick" id="stick">aa</div>
+        </div>
+
+      </div>
+
+      </div>
+
+    </div>
+    
+    <script type="text/javascript" src="{{ url_for('static', filename='js/JPictureModifier.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/CheckDevice.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/GamePad.js') }}"></script>
+  </body>
+
+</html>
